@@ -37,4 +37,46 @@ h1{
      background-image: url(./images/dream-bg.png);
      background-repeat: no-repeat;
      background-position: right;
+     margin-bottom: 100px;
+}
+
+#sect-3 .flexible{
+     display: flex;
+}
+#sect-3{
+     background-image: url(./images/exp-bg.png);
+     background-repeat: no-repeat;
+     background-position: left;
+}
+.sec-3head{
+     text-align: center;
+     margin-bottom: 80px;
+     font-size: 50px;
+     font-weight: 600;
+}
+
+.parts{
+     width: 40%;
+     margin-left: 5%;
+     margin-right: 5px;
+     margin-bottom: 175px;
+     padding: 10px;
+     border-radius: 10px;
+     text-align: justify;
+     box-shadow: 10px 10px 30px rgb(221, 221, 221);
+}
+.parts h1{
+     text-align: center;
+}
+.parts hr{
+     width: 80%;
+}
+#baby-st{
+     border-left: 7px solid blue;
+}
+#full-st{
+     border-left: 7px solid tomato;
+}
+footer p{
+     text-align: center;
 }
